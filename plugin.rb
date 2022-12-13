@@ -48,6 +48,8 @@ after_initialize do
           "contents" => {"en" => "#{payload[:username]}: #{payload[:excerpt]}"},
           "headings" => {"en" => payload[:topic_title]},
           "data" => {"discourse_url" => payload[:post_url]},
+          "small_icon" => SiteSetting.onesignal_notification_icon,
+          "huawei_small_icon" => SiteSetting.onesignal_notification_icon,
           "ios_badgeType" => "Increase",
           "ios_badgeCount" => "1",
           "filters" => [
