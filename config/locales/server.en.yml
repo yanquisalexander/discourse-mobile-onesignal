@@ -3,3 +3,4 @@ en:
     onesignal_push_enabled: "Check to enable OneSignal Push Notifications"
     onesignal_app_id: "OneSignal App ID"
     onesignal_rest_api_key: "OneSignal REST API Key"
+    onesignal_notification_icon: "Icon shown in the status bar and on the top left of the notification. Set the icon name without the file extension.<br>If not set a bell icon will be used"
